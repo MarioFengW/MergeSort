@@ -19,6 +19,12 @@ MergeSort is often used in external sorting where the data is too large to fit i
 - **merge function**: This function merges two sorted sub-arrays into one sorted array.
 - **mergeSort function**: The recursive function that splits the array and calls the merge function to sort.
 - **Driver code**: Handles input/output and initializes the sorting process.
+
+## Time and Space Complexity
+- **Time Complexity**:
+  - **Best case**: `O(n log n)`
+  - **Average case**: `O(n log n)`
+  - **Worst case**: `O(n log n)`
   
 - **Space Complexity**: `O(n)` – Additional memory is required for merging the two halves.
 
@@ -27,4 +33,3 @@ MergeSort is often used in external sorting where the data is too large to fit i
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/MergeSort.git
-   cd mergesort
